@@ -1,0 +1,7 @@
+pptx2md>=2.0.6
+jupyter-book>=2.0.0a0
+pandas
+matplotlib
+numpy
+jupyter
+ipykernel

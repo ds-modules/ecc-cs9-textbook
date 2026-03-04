@@ -1,0 +1,46 @@
+version: 1
+
+project:
+  id: csci9-textbook
+  title: CSCI 9 - Practical Data Science
+  description: Textbook that follows the lectures for CSCI 9 Practical Data Science at El Camino College.
+  parse:
+    myst_enable_extensions:
+      - html_image
+  toc:
+    - file: intro.md
+    - file: book/intro/index.md
+      title: "1. Intro"
+      children:
+        - file: book/intro/what-is-data-science.md
+          title: "What is data science?"
+        - file: book/intro/why-data-science-matters.md
+          title: "Why data science matters"
+        - file: book/intro/lifecycle.ipynb
+          title: "The data science lifecycle"
+    - file: book/pandas-i/index.md
+      title: "2. Pandas I"
+    # - file: book/pandas-ii/index.md
+    #   title: "3. Pandas II"
+    # - file: book/pandas-iii/index.md
+    #   title: "4. Pandas III"
+    # - file: book/eda/index.md
+    #   title: "5. Exploratory Data Analysis"
+    # - file: book/visualization-i/index.md
+    #   title: "6. Visualization I"
+    # - file: book/visualization-ii/index.md
+    #   title: "7. Visualization II"
+    # - file: book/sampling/index.md
+    #   title: "8. Sampling"
+    # - file: book/modeling-i/index.md
+    #   title: "9. Modeling I"
+    # - file: book/sql-i/index.md
+    #   title: "10. SQL I"
+    # - file: book/sql-ii/index.md
+    #   title: "11. SQL II"
+
+site:
+  template: book-theme
+  options:
+    logo: logo.png
+    favicon: favicon.ico

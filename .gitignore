@@ -1,0 +1,39 @@
+# Jupyter Book / MyST build output
+_build/
+
+docs/*
+
+lab/*
+
+lecture/*
+
+Slides/*
+
+data/*
+
+# Node (Jupyter Book v2 tooling)
+node_modules/
+
+# Python
+.env
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
