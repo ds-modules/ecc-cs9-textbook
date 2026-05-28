@@ -9,42 +9,43 @@ project:
       - html_image
   toc:
     - file: intro.md
-    - file: book/intro/intro.md
+      title: "Welcome to CSCI 9"
+    - file: intro/index.md
       title: "1. Introduction"
       children:
-        - file: book/intro/what-is-data-science.md
+        - file: intro/what-is-data-science.md
           title: "What is data science?"
-        - file: book/intro/why-data-science-matters.md
+        - file: intro/why-data-science-matters.md
           title: "Why data science matters"
-        - file: book/intro/lifecycle.ipynb
+        - file: intro/lifecycle.ipynb
           title: "The Data Science Lifecycle"
-    - file: book/pandas-i/pandas-i.md
+    - file: pandas-i/index.md
       title: "2. Pandas I"
-    - file: book/pandas-ii/pandas-ii.md
+    - file: pandas-ii/index.md
       title: "3. Pandas II"
-    - file: book/pandas-iii/pandas-iii.md
+    - file: pandas-iii/index.md
       title: "4. Pandas III"
-    - file: book/eda/eda.md
+    - file: eda/index.md
       title: "5. EDA"
-    - file: book/text-wrangling-regex/text-wrangling-regex.md
+    - file: text-wrangling-regex/index.md
       title: "6. Text Wrangling and Regex"
-    - file: book/visualization-i/visualization-i.md
+    - file: visualization-i/index.md
       title: "7. Visualization"
-    - file: book/visualization-ii/visualization-ii.md
+    - file: visualization-ii/index.md
       title: "8. Visualization II"
-    - file: book/sampling/sampling.md
+    - file: sampling/index.md
       title: "9. Sampling"
-    - file: book/modeling-i/modeling-i.md
+    - file: modeling-i/index.md
       title: "10. Modeling I"
-    - file: book/modeling-ii/modeling-ii.md
+    - file: modeling-ii/index.md
       title: "11. Modeling II"
-    - file: book/modeling-iii/modeling-iii.md
+    - file: modeling-iii/index.md
       title: "12. Modeling III"
-    - file: book/modeling-iv/modeling-iv.md
+    - file: modeling-iv/index.md
       title: "13. Modeling IV"
-    - file: book/sql-i/sql-i.md
+    - file: sql-i/index.md
       title: "14. SQL I"
-    - file: book/sql-ii/sql-ii.md
+    - file: sql-ii/index.md
       title: "15. SQL II"
 
 site:
@@ -53,3 +54,4 @@ site:
     logo: logo.png
     favicon: favicon.ico
     logo_text: CSCI 9 Textbook
+    folders: true
