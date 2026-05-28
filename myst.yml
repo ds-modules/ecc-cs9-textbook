@@ -10,14 +10,14 @@ project:
   toc:
     - file: intro.md
     - file: book/intro/intro.md
-      title: "1. Intro"
+      title: "1. Introduction"
       children:
         - file: book/intro/what-is-data-science.md
           title: "What is data science?"
         - file: book/intro/why-data-science-matters.md
           title: "Why data science matters"
         - file: book/intro/lifecycle.ipynb
-          title: "The data science lifecycle"
+          title: "The Data Science Lifecycle"
     - file: book/pandas-i/pandas-i.md
       title: "2. Pandas I"
     - file: book/pandas-ii/pandas-ii.md
@@ -25,9 +25,9 @@ project:
     - file: book/pandas-iii/pandas-iii.md
       title: "4. Pandas III"
     - file: book/eda/eda.md
-      title: "5. Exploring and Cleaning Data"
+      title: "5. EDA"
     - file: book/text-wrangling-regex/text-wrangling-regex.md
-      title: "6. Text Wrangling and Regular Expressions"
+      title: "6. Text Wrangling and Regex"
     - file: book/visualization-i/visualization-i.md
       title: "7. Visualization"
     - file: book/visualization-ii/visualization-ii.md
@@ -35,13 +35,13 @@ project:
     - file: book/sampling/sampling.md
       title: "9. Sampling"
     - file: book/modeling-i/modeling-i.md
-      title: "10. Modeling — Simple Linear Regression"
+      title: "10. Modeling I"
     - file: book/modeling-ii/modeling-ii.md
-      title: "11. Modeling — Feature Engineering"
+      title: "11. Modeling II"
     - file: book/modeling-iii/modeling-iii.md
-      title: "12. Modeling — Standardization & Generalization"
+      title: "12. Modeling III"
     - file: book/modeling-iv/modeling-iv.md
-      title: "13. Modeling — Hyperparameters & Trees"
+      title: "13. Modeling IV"
     - file: book/sql-i/sql-i.md
       title: "14. SQL I"
     - file: book/sql-ii/sql-ii.md
