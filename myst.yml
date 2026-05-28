@@ -9,7 +9,7 @@ project:
       - html_image
   toc:
     - file: intro.md
-    - file: book/intro/index.md
+    - file: book/intro/intro.md
       title: "1. Intro"
       children:
         - file: book/intro/what-is-data-science.md
@@ -18,29 +18,38 @@ project:
           title: "Why data science matters"
         - file: book/intro/lifecycle.ipynb
           title: "The data science lifecycle"
-    - file: book/pandas-i/index.md
+    - file: book/pandas-i/pandas-i.md
       title: "2. Pandas I"
-    # - file: book/pandas-ii/index.md
-    #   title: "3. Pandas II"
-    # - file: book/pandas-iii/index.md
-    #   title: "4. Pandas III"
-    # - file: book/eda/index.md
-    #   title: "5. Exploratory Data Analysis"
-    # - file: book/visualization-i/index.md
-    #   title: "6. Visualization I"
-    # - file: book/visualization-ii/index.md
-    #   title: "7. Visualization II"
-    # - file: book/sampling/index.md
-    #   title: "8. Sampling"
-    # - file: book/modeling-i/index.md
-    #   title: "9. Modeling I"
-    # - file: book/sql-i/index.md
-    #   title: "10. SQL I"
-    # - file: book/sql-ii/index.md
-    #   title: "11. SQL II"
+    - file: book/pandas-ii/pandas-ii.md
+      title: "3. Pandas II"
+    - file: book/pandas-iii/pandas-iii.md
+      title: "4. Pandas III"
+    - file: book/eda/eda.md
+      title: "5. Exploring and Cleaning Data"
+    - file: book/text-wrangling-regex/text-wrangling-regex.md
+      title: "6. Text Wrangling and Regular Expressions"
+    - file: book/visualization-i/visualization-i.md
+      title: "7. Visualization"
+    - file: book/visualization-ii/visualization-ii.md
+      title: "8. Visualization II"
+    - file: book/sampling/sampling.md
+      title: "9. Sampling"
+    - file: book/modeling-i/modeling-i.md
+      title: "10. Modeling — Simple Linear Regression"
+    - file: book/modeling-ii/modeling-ii.md
+      title: "11. Modeling — Feature Engineering"
+    - file: book/modeling-iii/modeling-iii.md
+      title: "12. Modeling — Standardization & Generalization"
+    - file: book/modeling-iv/modeling-iv.md
+      title: "13. Modeling — Hyperparameters & Trees"
+    - file: book/sql-i/sql-i.md
+      title: "14. SQL I"
+    - file: book/sql-ii/sql-ii.md
+      title: "15. SQL II"
 
 site:
   template: book-theme
   options:
     logo: logo.png
     favicon: favicon.ico
+    logo_text: CSCI 9 Textbook
