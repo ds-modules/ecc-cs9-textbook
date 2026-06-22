@@ -209,4 +209,5 @@ def run_regex_demo(text=DEFAULT_TEXT, pattern=DEFAULT_PATTERN):
     )
     display(ui)
     render()
-    return ui
+    # Intentionally return nothing: returning the widget would make Jupyter
+    # display the whole demo a second time below the first copy.
