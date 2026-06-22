@@ -7,6 +7,12 @@ project:
   parse:
     myst_enable_extensions:
       - html_image
+  jupyter:
+    binder:
+      repo: ds-modules/ecc-cs9-textbook
+      ref: main
+      url: https://mybinder.org
+    kernelName: python3
   toc:
     - file: intro.md
       title: "Welcome to CSCI 9"
@@ -29,6 +35,15 @@ project:
       title: "5. EDA"
     - file: text-wrangling-regex/index.md
       title: "6. Text Wrangling and Regex"
+      children:
+        - file: text-wrangling-regex/01_string_methods.ipynb
+          title: "String methods in pandas"
+        - file: text-wrangling-regex/02_regular_expressions.ipynb
+          title: "Regular expressions"
+        - file: text-wrangling-regex/03_regex_in_pandas.ipynb
+          title: "Regex in pandas"
+        - file: text-wrangling-regex/04_summary.md
+          title: "Summary"
     - file: visualization-i/index.md
       title: "7. Visualization"
     - file: visualization-ii/index.md
