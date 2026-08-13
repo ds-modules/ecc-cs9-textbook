@@ -25,3 +25,7 @@ When two or more predictors are **highly correlated**, coefficient estimates can
 ## Toward more flexible models
 
 With standardized features and an eye on related predictors, we are ready for **hyperparameter tuning**, **cross-validation**, and models such as **decision trees** that capture non-linear structure without hand-building every interaction.
+
+## Try an interactive demo
+
+- [Try it: complexity and generalization](01_complexity_demo.ipynb): raise the polynomial degree and compare training error to test error to see overfitting.

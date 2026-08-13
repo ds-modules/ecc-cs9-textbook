@@ -13,3 +13,7 @@ If our data are a **convenience sample** or otherwise biased, conclusions about 
 :::{important} Sampling bias
 A biased sample can lead to misleading conclusions no matter how sophisticated our analysis. Always ask: Who or what is in the sample, and who or what is missing?
 :::
+
+## Try an interactive demo
+
+- [Try it: sampling distributions](01_sampling_demo.ipynb): draw many random samples and watch how sample size changes the spread of the sample mean.

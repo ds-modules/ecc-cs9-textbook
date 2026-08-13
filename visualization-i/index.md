@@ -19,3 +19,7 @@ Sometimes one carefully chosen plot or metric is more effective than many. Think
 ## Distributions and KDE
 
 **Histograms** bin values and show counts or proportions; they give a sense of shape, center, and spread. **Kernel density estimation (KDE)** smooths the data into a continuous curve, often making it easier to see the overall shape. Both are tools for "what does this variable look like?" — a central EDA question that carries through to modeling (e.g., checking assumptions) and reporting.
+
+## Try an interactive demo
+
+- [Try it: histograms and KDE](01_density_demo.ipynb): move bin width and bandwidth sliders to see how the same sample can look smooth or spiky.

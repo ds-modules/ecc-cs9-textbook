@@ -46,16 +46,25 @@ project:
           title: "Summary"
     - file: visualization-i/index.md
       title: "7. Visualization"
+      children:
+        - file: visualization-i/01_density_demo.ipynb
+          title: "Try it: histograms and KDE"
     - file: visualization-ii/index.md
       title: "8. Visualization II"
     - file: sampling/index.md
       title: "9. Sampling"
+      children:
+        - file: sampling/01_sampling_demo.ipynb
+          title: "Try it: sampling distributions"
     - file: modeling-i/index.md
       title: "10. Modeling I"
     - file: modeling-ii/index.md
       title: "11. Modeling II"
     - file: modeling-iii/index.md
       title: "12. Modeling III"
+      children:
+        - file: modeling-iii/01_complexity_demo.ipynb
+          title: "Try it: complexity and generalization"
     - file: modeling-iv/index.md
       title: "13. Modeling IV"
     - file: sql-i/index.md
