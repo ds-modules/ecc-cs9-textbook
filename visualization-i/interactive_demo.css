@@ -1,0 +1,84 @@
+.cs9-hk {
+  font-family: inherit;
+  color: inherit;
+  max-width: 100%;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.cs9-hk svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cs9-hk-bar {
+  fill: #7ea8c4;
+}
+
+.cs9-hk-kde {
+  fill: none;
+  stroke: #c45c26;
+  stroke-width: 2.25;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.cs9-hk-axis {
+  stroke: currentColor;
+  stroke-opacity: 0.45;
+  stroke-width: 1;
+}
+
+.cs9-hk-label {
+  fill: currentColor;
+  font-size: 12px;
+}
+
+.cs9-hk-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 2.6rem;
+  gap: 0.65rem;
+  align-items: center;
+  margin: 0.55rem 0 0;
+}
+
+.cs9-hk-label-text {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: center;
+  font-size: 0.95rem;
+}
+
+.cs9-hk-label-text input[type="range"] {
+  width: 100%;
+  margin: 0;
+  accent-color: #3d6b8a;
+}
+
+.cs9-hk-value {
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  font-size: 0.95rem;
+}
+
+.cs9-hk-caption {
+  margin: 0.65rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.78;
+}
+
+html.dark .cs9-hk-bar {
+  fill: #6a9bb8;
+}
+
+html.dark .cs9-hk-kde {
+  stroke: #e08a55;
+}
+
+@media (max-width: 40rem) {
+  .cs9-hk-label-text {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+}
