@@ -13,3 +13,24 @@ If our data are a **convenience sample** or otherwise biased, conclusions about 
 :::{important} Sampling bias
 A biased sample can lead to misleading conclusions no matter how sophisticated our analysis. Always ask: Who or what is in the sample, and who or what is missing?
 :::
+
+---
+
+## Interactive: The Sampling Distribution of the Mean
+
+When we draw a random sample of size $n$ from a population, the sample mean $\bar{X}$ varies from sample to sample. The distribution of these sample means is called the **sampling distribution**.
+
+Adjust the sample size $n$ slider below and observe what happens to the spread of the sample means. When $n$ is small, sample means vary widely; as $n$ grows, the distribution narrows sharply around the true population mean ($\mu \approx 70.0$), illustrating why larger random samples provide more precise estimates.
+
+```{anywidget} ./sampling_demo.js
+:css: ./interactive_demo.css
+{
+  "sample_size": 30,
+  "seed": 1
+}
+```
+
+:::{tip} Explore the distribution
+- Increase $n$ from 5 up to 100: notice how the distribution centers on the true mean while standard error ($\sigma / \sqrt{n}$) shrinks.
+- Click **Draw new samples** to take another 200 random draws from the population at your chosen sample size.
+:::

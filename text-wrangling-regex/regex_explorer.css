@@ -1,0 +1,186 @@
+.cs9-rx {
+  font-family: inherit;
+  color: inherit;
+  max-width: 100%;
+  margin: 0.5rem 0 1rem;
+}
+
+.cs9-rx-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.cs9-rx-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.cs9-rx-text-row {
+  align-items: flex-start;
+}
+
+.cs9-rx-label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  width: 4.5rem;
+  flex-shrink: 0;
+}
+
+.cs9-rx-input {
+  flex: 1;
+  font-family: monospace, monospace;
+  font-size: 0.95rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #1e293b;
+}
+
+.cs9-rx-textarea {
+  flex: 1;
+  font-family: monospace, monospace;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #1e293b;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.cs9-rx-flags {
+  display: flex;
+  gap: 1.25rem;
+  margin-left: 5.1rem;
+  font-size: 0.85rem;
+}
+
+.cs9-rx-checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  cursor: pointer;
+}
+
+.cs9-rx-output {
+  margin-top: 0.5rem;
+}
+
+.cs9-rx-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.cs9-rx-chip {
+  padding: 1px 6px;
+  border-radius: 3px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+.cs9-rx-display {
+  font-family: monospace, monospace;
+  font-size: 0.9rem;
+  white-space: pre-wrap;
+  line-height: 1.8;
+  padding: 0.75rem;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  color: #0f172a;
+}
+
+.cs9-rx-match {
+  border-bottom: 2px solid #ff7043;
+}
+
+.cs9-rx-group {
+  border-radius: 3px;
+  padding: 0 1px;
+  color: #0f172a;
+}
+
+.cs9-rx-count {
+  margin: 0.6rem 0 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.cs9-rx-hint {
+  color: #64748b;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.cs9-rx-error {
+  color: #dc2626;
+  font-family: monospace, monospace;
+  font-size: 0.85rem;
+  margin: 0.4rem 0;
+}
+
+.cs9-rx-table-wrap {
+  overflow-x: auto;
+  margin-top: 0.5rem;
+}
+
+.cs9-rx-table {
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.cs9-rx-table th,
+.cs9-rx-table td {
+  padding: 4px 8px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.cs9-rx-table th {
+  font-weight: 600;
+  color: #475569;
+}
+
+.cs9-rx-table code {
+  font-size: 0.85em;
+  background: #f1f5f9;
+  padding: 1px 4px;
+  border-radius: 3px;
+}
+
+/* Dark mode adjustments */
+html.dark .cs9-rx-input,
+html.dark .cs9-rx-textarea {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+html.dark .cs9-rx-display {
+  background: #0f172a;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+html.dark .cs9-rx-group {
+  color: #0f172a;
+}
+
+html.dark .cs9-rx-table th,
+html.dark .cs9-rx-table td {
+  border-bottom-color: #334155;
+}
+
+html.dark .cs9-rx-table code {
+  background: #1e293b;
+  color: #f1f5f9;
+}
