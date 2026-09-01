@@ -19,3 +19,19 @@ Sometimes one carefully chosen plot or metric is more effective than many. Think
 ## Distributions and KDE
 
 **Histograms** bin values and show counts or proportions; they give a sense of shape, center, and spread. **Kernel density estimation (KDE)** smooths the data into a continuous curve, often making it easier to see the overall shape. Both are tools for "what does this variable look like?" — a central EDA question that carries through to modeling (e.g., checking assumptions) and reporting.
+
+The figure below uses **one fixed sample**. A histogram and a KDE are two ways of drawing that sample. Move the sliders and watch the picture change while the observations stay the same.
+
+:::{tip} What to notice
+- Change the **number of bins**. Too few bins can hide peaks; too many can make the histogram look noisy.
+- Change the **KDE bandwidth** (how much the curve is smoothed). A small bandwidth follows every wiggle; a large bandwidth can blend two clusters into one mound.
+- Compare a jagged histogram with a smooth KDE — and remember that neither plot adds new data.
+:::
+
+```{anywidget} ./histogram_kde.js
+:css: ./interactive_demo.css
+{
+  "n_bins": 12,
+  "bandwidth": 0.35
+}
+```
