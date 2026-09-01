@@ -1,0 +1,155 @@
+.cs9-mc {
+  font-family: inherit;
+  color: inherit;
+  max-width: 100%;
+  margin: 0.5rem 0 1rem;
+}
+
+.cs9-mc svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.cs9-mc-train-pt {
+  fill: #1976d2;
+  fill-opacity: 0.8;
+}
+
+.cs9-mc-test-pt {
+  fill: #f57c00;
+  fill-opacity: 0.85;
+}
+
+.cs9-mc-curve {
+  fill: none;
+  stroke: #2e7d32;
+  stroke-width: 2.5;
+}
+
+.cs9-mc-grid-zero {
+  stroke: currentColor;
+  stroke-opacity: 0.15;
+  stroke-dasharray: 3 3;
+}
+
+.cs9-mc-axis {
+  stroke: currentColor;
+  stroke-opacity: 0.45;
+  stroke-width: 1;
+}
+
+.cs9-mc-label {
+  fill: currentColor;
+  font-size: 11px;
+}
+
+.cs9-mc-controls {
+  display: flex;
+  align-items: center;
+  margin: 0.75rem 0 0.5rem;
+}
+
+.cs9-mc-slider-label {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.95rem;
+  flex: 1;
+}
+
+.cs9-mc-slider-label input[type="range"] {
+  flex: 1;
+  accent-color: #2e7d32;
+}
+
+.cs9-mc-value {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  width: 1.8rem;
+  text-align: right;
+}
+
+.cs9-mc-badges {
+  margin-top: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.9rem;
+}
+
+.cs9-mc-stats {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.cs9-mc-train-text {
+  color: #1976d2;
+}
+
+.cs9-mc-test-text {
+  color: #f57c00;
+}
+
+.cs9-mc-diag {
+  font-size: 0.85rem;
+}
+
+.cs9-mc-tag {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.cs9-mc-tag-under {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.cs9-mc-tag-over {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.cs9-mc-tag-good {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+html.dark .cs9-mc-train-pt {
+  fill: #64b5f6;
+}
+
+html.dark .cs9-mc-test-pt {
+  fill: #ffb74d;
+}
+
+html.dark .cs9-mc-curve {
+  stroke: #81c784;
+}
+
+html.dark .cs9-mc-train-text {
+  color: #64b5f6;
+}
+
+html.dark .cs9-mc-test-text {
+  color: #ffb74d;
+}
+
+html.dark .cs9-mc-tag-under {
+  background: #3e2723;
+  color: #ffb74d;
+}
+
+html.dark .cs9-mc-tag-over {
+  background: #3e1b1b;
+  color: #ef9a9a;
+}
+
+html.dark .cs9-mc-tag-good {
+  background: #1b3e20;
+  color: #a5d6a7;
+}

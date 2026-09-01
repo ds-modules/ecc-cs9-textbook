@@ -22,6 +22,27 @@ When two or more predictors are **highly correlated**, coefficient estimates can
 
 ---
 
+## Interactive: Model Complexity and Overfitting
+
+When we increase the flexibility (complexity) of a model — such as fitting a higher-degree polynomial — training error almost always goes down. However, beyond a certain point, the model begins memorizing random noise in the training set rather than true signal, causing error on held-out **test data** to spike. This tradeoff between bias and variance is central to predictive modeling.
+
+Adjust the polynomial degree slider below to see how higher complexity affects training fit vs. test generalization.
+
+```{anywidget} ./complexity_demo.js
+:css: ./interactive_demo.css
+{
+  "degree": 3
+}
+```
+
+:::{tip} Explore complexity tradeoffs
+- **Degree 1–2 (Underfitting):** The model is too rigid to capture the curvature; both train and test errors are high (high bias).
+- **Degree 3–4 (Balanced fit):** The curve captures the underlying pattern well and generalizes with low test error.
+- **Degree 7–10 (Overfitting):** The curve wiggles wildly to hit training points; training RMSE continues dropping, but test RMSE shoots up (high variance).
+:::
+
+---
+
 ## Toward more flexible models
 
 With standardized features and an eye on related predictors, we are ready for **hyperparameter tuning**, **cross-validation**, and models such as **decision trees** that capture non-linear structure without hand-building every interaction.
